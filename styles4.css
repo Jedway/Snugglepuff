@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('bgimage2.png') center/cover no-repeat fixed;
+    /*filter: blur(5px); /* Adjust the blur radius as needed */
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .typewriter {
+    overflow: hidden;
+    white-space: pre-wrap;
+    font-size: 1.5em;
+    color: #000000; /* Set text color to be visible on the blurred background */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .typewriter {
+      font-size: 1em;
+    }
+  }
+  
+  .pill-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .pill-button:hover {
+    background-color: #0056b3;
+  }
+  
